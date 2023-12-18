@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>TrainStation - Stockage</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/style_grid.css">
+        <link rel="stylesheet" href="styles/style_nav.css">
+    </head>
+    <body>
+        <script src="data.json"></script>
+        <div class="interface">
+            <div class="interface-nav">
+                <div class="interface-nav-bouton">
+                    <img onclick="addItem()" class="interface-nav-bouton-img" src="assets/images/materiaux/bois.png" alt="">
+                </div>
+                <div class="interface-nav-bouton">
+                    <img onclick="addItemRemove()" class="interface-nav-bouton-img" src="assets/images/materiaux/clous.png" alt="">
+                </div>
+                <div class="interface-nav-bouton"></div>
+            </div>
+            <div class="interface-grille">
+                <div class="interface-grille-item">
+                    <span class="interface-grille-item-name">Resistor U Bois</span>
+                    <div class="interface-grille-item-img-box">
+                            <span class="interface-grille-item-img-box-count">75</span>
+                            <span class="interface-grille-item-img-box-type">Maglev</span>
+                        <img class="interface-grille-item-img" src="assets/images/7fda9e64d368d6985892b7cf299f07_e6636c2a.png" alt="">
+                    </div>
+                    <div class="interface-grille-item-info-fret">
+                        <span>Fret : </span>
+                        <span>+4300%</span>
+                    </div>
+                    <div class="interface-grille-item-info-set">
+                        <span>Resistor U Maglev (+30%)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <script src="script.js"></script>
+</html>

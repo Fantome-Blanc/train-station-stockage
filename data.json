@@ -1,0 +1,15 @@
+{
+    "wagons cargo":{
+        "bois": [
+            {
+                "name":"Mon train",
+                "quantite":10,
+                "type":"Fret",
+                "type_bonus":500,
+                "set":true,
+                "set_name":"Mon train adorée",
+                "set_bonus":30
+            }
+        ]
+    }
+}

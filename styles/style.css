@@ -1,0 +1,40 @@
+:root{
+    --gris1:#2B2B2B;
+    --gris2: #D2D5DA;
+    --gris3:#202020;
+
+    --blanc1: #FFFFFF;
+    --blanc2:#FEFEFE;
+    --blanc3:#F4F4F4;
+
+    --bleu1: #13A5F8;
+    --bleu2: #23B2FF;
+    --bleu3: #EEF8FF;
+}
+
+body{
+    margin: 2rem;
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+
+    background-color: var(--blanc1);
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interface{
+    min-width: 1600px;
+    min-height: 700px;
+    max-height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 1rem;
+    background-color: var(--gris2);
+    border-radius: 15px;
+}
