@@ -1,0 +1,42 @@
+{
+    "Entrepôt":{
+        "Locomotives":[
+            "Vapeur",
+            "Diesel",
+            "Électrique",
+            "Maglev",
+            "Hyperloop"
+        ],
+        "Wagons cargo":[
+            "Bois",
+            "Clous",
+            "Briques",
+            "Verre",
+            "Acier",
+            "Gravier",
+            "Carburant",
+            "U-235",
+            "Ciment",
+            "Caoutchouc",
+            "Carbone",
+            "Titane",
+            "Marbre",
+            "Câbles",
+            "Plastiques",
+            "Silicium",
+            "Lithium",
+            "Aérogel",
+            "Nanotubes",
+            "Néodyme",
+            "Tungstène",
+            "Borax",
+            "Xénon",
+            "Bismuth"
+        ],
+        "Wagons Postaux et de Passagers":[
+            "Passager",
+            "Courrier",
+            "Combiné"
+        ]
+    }
+}

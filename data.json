@@ -1,15 +1,72 @@
 {
-    "wagons cargo":{
-        "bois": [
-            {
-                "name":"Mon train",
-                "quantite":10,
-                "type":"Fret",
-                "type_bonus":500,
-                "set":true,
-                "set_name":"Mon train adorée",
-                "set_bonus":30
-            }
-        ]
+    "Entrepôt":{
+        "Locomotives":{
+            "Vapeur":[],
+            "Diesel":[],
+            "Électrique":[],
+            "Maglev":[],
+            "Hyperloop":[
+                {
+                    "nom":"Nebulus",
+                    "type":"Hyperloop",
+                    "quantite":1,
+                    "information":{
+                        "profit":570,
+                        "force":10,
+                        "emplacements":4,
+                        "taxe": 4125000,
+                        "expédition": 41250
+                    },
+                    "set":{
+                        "nom":"Nebulus Material",
+                        "bonus":10
+                    }
+                }
+            ]
+        },
+        "Wagons cargo":{
+            "Bois": [
+                {
+                    "nom":"Resistor U Bois",
+                    "type":"Maglev",
+                    "quantite":47,
+                    "information":{
+                        "fret":4300
+                    },
+                    "set":{
+                        "nom":"Resistor U Maglev",
+                        "bonus":30
+                    }
+                }
+            ],
+            "Clous": [],
+            "Briques": [],
+            "Verre": [],
+            "Acier": [],
+            "Gravier": [],
+            "Carburant": [],
+            "U-235": [],
+            "Ciment": [],
+            "Caoutchouc": [],
+            "Carbone": [],
+            "Titane": [],
+            "Marbre": [],
+            "Câbles": [],
+            "Plastiques": [],
+            "Silicium": [],
+            "Lithium": [],
+            "Aérogel": [],
+            "Nanotubes": [],
+            "Néodyme": [],
+            "Tungstène": [],
+            "Borax": [],
+            "Xénon": [],
+            "Bismuth": []
+        },
+        "Wagons Postaux et de Passagers":{
+            "Passager": [],
+            "Courrier": [],
+            "Combiné": []
+        }
     }
 }

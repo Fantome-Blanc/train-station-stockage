@@ -1,42 +1,110 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>TrainStation - Stockage</title>
+        <meta charset="utf-8">
+        <title>Train Station</title>
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="styles/style_grid.css">
         <link rel="stylesheet" href="styles/style_nav.css">
     </head>
-    <body>
-        <script src="data.json"></script>
+</html>
+<body>
+    <div class="screen">
         <div class="interface">
-            <div class="interface-nav">
-                <div class="interface-nav-bouton">
-                    <img onclick="addItem()" class="interface-nav-bouton-img" src="assets/images/materiaux/bois.png" alt="">
-                </div>
-                <div class="interface-nav-bouton">
-                    <img onclick="addItemRemove()" class="interface-nav-bouton-img" src="assets/images/materiaux/clous.png" alt="">
-                </div>
-                <div class="interface-nav-bouton"></div>
+            <div class="interface-left">
+                <span></span>
+                <span></span>
             </div>
-            <div class="interface-grille">
-                <div class="interface-grille-item">
-                    <span class="interface-grille-item-name">Resistor U Bois</span>
-                    <div class="interface-grille-item-img-box">
-                            <span class="interface-grille-item-img-box-count">75</span>
-                            <span class="interface-grille-item-img-box-type">Maglev</span>
-                        <img class="interface-grille-item-img" src="assets/images/7fda9e64d368d6985892b7cf299f07_e6636c2a.png" alt="">
+            <div class="interface-middle">
+                <span class="interface-title">Entrepot / Wagons cargo / Bois</span>
+                <div class="interface-nav">
+                    <div class="nav-top">
+                        <div class="nav-bouton active">Locomotive</div>
+                        <div class="nav-bouton">Wagons cargo</div>
+                        <div class="nav-bouton">Wagons Postaux et Passagers</div>
+                        <div class="nav-bouton">Wagons spéciaux</div>
+                        <div class="nav-bouton">Immeubles</div>
+                        <div class="nav-bouton">Décorations</div>
+                        <div class="nav-bouton">Extensions et Thèmes</div>
+                        <div class="nav-bouton">Récompenses</div>
+                        <div class="nav-bouton">Drapaux</div>
                     </div>
-                    <div class="interface-grille-item-info-fret">
-                        <span>Fret : </span>
-                        <span>+4300%</span>
-                    </div>
-                    <div class="interface-grille-item-info-set">
-                        <span>Resistor U Maglev (+30%)</span>
+                    <div class="nav-bottom">
+                        <div class="nav-bouton active">Bois</div>
+                        <div class="nav-bouton">Clous</div>
+                        <div class="nav-bouton">Briques</div>
+                        <div class="nav-bouton">Verre</div>
+                        <div class="nav-bouton">Acier</div>
+                        <div class="nav-bouton">Gravier</div>
+                        <div class="nav-bouton">Carburant</div>
+                        <div class="nav-bouton">U-235</div>
+                        <div class="nav-bouton">Ciment</div>
                     </div>
                 </div>
+                <div class="interface-grid">
+                    <div class="interface-grid-item">
+                        <span class="item-name">Peacock Himalia UT</span>
+                        
+                        <div class="item-picture">
+                            <span class="item-count">1</span>
+                            <span class="item-type">Hyperloop</span>
+                            <img class="item-picture-img" src="/assets/images/Entrepôt/Locomotives/Hyperloop/Peacock Himalia UT.png" alt="">
+                        </div>
+                        <div class="item-info">
+                            <span>Force :</span>
+                            <span>41</span>
+                        </div>
+                        <div class="item-info">
+                            <span>Emplacements :</span>
+                            <span>2</span>
+                        </div>
+                        <div class="item-info">
+                            <span>Taxe :</span>
+                            <span>8 934 720</span>
+                        </div>
+                        <div class="item-info">
+                            <span>Expédition :</span>
+                            <span>41 250</span>
+                        </div>
+                        <div class="item-info-set">
+                            <span>Peacock Hyperloop (+25%)</span>
+                        </div>
+                    </div>
+                    <div class="interface-grid-item">
+                        <span class="item-name">Peacock Himalia UT</span>
+                        
+                        <div class="item-picture">
+                            <span class="item-count">1</span>
+                            <span class="item-type">Hyperloop</span>
+                            <img class="item-picture-img" src="/assets/images/Entrepôt/Locomotives/Hyperloop/Peacock Himalia UT.png" alt="">
+                        </div>
+                        <div class="item-info">
+                            <span>Force :</span>
+                            <span>41</span>
+                        </div>
+                        <div class="item-info">
+                            <span>Emplacements :</span>
+                            <span>2</span>
+                        </div>
+                        <div class="item-info">
+                            <span>Taxe :</span>
+                            <span>8 934 720</span>
+                        </div>
+                        <div class="item-info">
+                            <span>Expédition :</span>
+                            <span>41 250</span>
+                        </div>
+                        <div class="item-info-set">
+                            <span>Peacock Hyperloop (+25%)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="interface-right">
+                <span></span>
+                <span></span>
             </div>
         </div>
-    </body>
+    </div>
     
-    <script src="script.js"></script>
-</html>
+</body>
